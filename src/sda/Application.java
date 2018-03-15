@@ -4,6 +4,7 @@ package sda;
 // git pull
 // git checkout >nazwa nowego brancha<
 //git merge >nazwa galezi do domerdzowania, trzeba byc na tej ostatecznej
+//git stash  git stash pop
 
 import sda.calculator.Calculator;
 import sda.calculator.RandomGenerator;
@@ -24,5 +25,7 @@ public class Application {
         // git checkout -b factorial -> tworzy branch
         System.out.println("Factorial : " + myCalculator.factorial(3));
         System.out.println();
+        System.out.println("blablabla");
     }
+
 }
