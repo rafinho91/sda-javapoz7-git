@@ -21,5 +21,8 @@ public class Application {
         RandomGenerator randomGenerator = new RandomGenerator();
         System.out.println(randomGenerator.getBigNumber());
         System.out.println(randomGenerator.getSmallNumber());
+
+        System.out.println("Factorial : " + calculator.factorial(5));
     }
+
 }
