@@ -21,8 +21,8 @@ public class Application {
         RandomGenerator randomGenerator = new RandomGenerator();
         System.out.println(randomGenerator.getBigNumber());
         System.out.println(randomGenerator.getSmallNumber());
-
-        System.out.println("Factorial : " + calculator.factorial(5));
+        // git checkout -b factorial -> tworzy branch
+        System.out.println("Factorial : " + calculator.factorial(3));
     }
 
 }
