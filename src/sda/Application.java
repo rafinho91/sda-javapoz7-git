@@ -17,6 +17,7 @@ public class Application {
         System.out.println(calculator.subtract(5,10));
         System.out.println(calculator.multiply(5,10));
         System.out.println(calculator.divide(5,0));
+        randomGenarator
         RandomGenerator randomGenerator = new RandomGenerator();
         System.out.println(randomGenerator.getBigNumber());
         System.out.println(randomGenerator.getSmallNumber());

@@ -5,8 +5,11 @@ import java.util.Random;
 public class RandomGenerator {
     private Random random;
 
+    randomGenarator
     public RandomGenerator() {
         this.random = new Random();
+
+
     }
 
     public int getSmallNumber() {
@@ -14,6 +17,8 @@ public class RandomGenerator {
     }
 
     public int getBigNumber() {
+    randomGenarator
         return random.nextInt(100) + 100;
+
     }
 }
